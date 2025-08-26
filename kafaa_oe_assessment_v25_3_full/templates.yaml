@@ -1,0 +1,42 @@
+profiles:
+  metal_fabrication:
+    label: Metal Fabrication
+    benchmarks:
+      inventory_days: 45
+      ccc_benchmark_days: 60
+      dso_benchmark_days: 45
+      dpo_benchmark_days: 45
+      fpy_best: 98
+      chg_min: 10
+  electronics_assembly:
+    label: Electronics Assembly
+    benchmarks:
+      inventory_days: 30
+      ccc_benchmark_days: 45
+      dso_benchmark_days: 35
+      dpo_benchmark_days: 40
+      fpy_best: 99
+      chg_min: 5
+  defense_unmanned:
+    label: Defense • Unmanned Systems
+    benchmarks:
+      otd_target_pct: 90
+      takt_adherence_pct: 95
+      fpy_best: 99.0
+      fai_pass_target_pct: 95
+      ncr_per_k_units_target: 5
+      eco_cycle_days_target: 5
+      mtbf_hours_target: 500
+      test_pass_first_time_pct: 90
+      calibration_on_time_pct: 98
+      traceability_retrieval_min: 15
+      supplier_otd_target_pct: 90
+      inventory_days: 45
+      ccc_benchmark_days: 60
+      dso_benchmark_days: 45
+      dpo_benchmark_days: 45
+      fod_incidents_target_per_k_hours: 0
+      incident_rate_target_per_200k_hours: 0
+localization:
+  ar:
+    Executive Dashboard: لوحة المؤشرات التنفيذية
