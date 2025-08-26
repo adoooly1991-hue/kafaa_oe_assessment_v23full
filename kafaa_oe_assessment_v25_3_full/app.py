@@ -1,4 +1,9 @@
 
+import os
+from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+os.chdir(BASE_DIR)  
+
 import streamlit as st, yaml
 st.set_page_config(page_title="Kafaa OE Assessment — v25.3 Full", layout="wide")
 st.sidebar.title("Kafaa OE Assessment"); st.sidebar.caption("v25.3 • Full‑fat (Defense profile)")
